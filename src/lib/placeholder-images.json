@@ -1,3 +1,40 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "dassam-falls",
+      "description": "Dassam Falls, a natural cascade along the Subarnarekha River.",
+      "imageUrl": "https://images.unsplash.com/photo-1625023455567-09b002682d1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx3YXRlcmZhbGwlMjBuYXR1cmV8ZW58MHx8fHwxNzU5MDIwOTEwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "waterfall nature"
+    },
+    {
+      "id": "patratu-valley",
+      "description": "Patratu Valley, known for its winding roads and scenic views.",
+      "imageUrl": "https://images.unsplash.com/photo-1720770380515-58a3ee4306bf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8dmFsbGV5JTIwcm9hZHxlbnwwfHx8fDE3NTkwMzIxMDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "valley road"
+    },
+    {
+      "id": "netarhat",
+      "description": "Netarhat, the 'Queen of Chotanagpur', famous for its sunrises.",
+      "imageUrl": "https://images.unsplash.com/photo-1542224566-6e85f2e6772f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzdW5yaXNlJTIwbW91bnRhaW5zfGVufDB8fHx8MTc1ODk1MzMzNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sunrise mountains"
+    },
+    {
+      "id": "betla-national-park",
+      "description": "Betla National Park, home to a diverse range of wildlife.",
+      "imageUrl": "https://images.unsplash.com/photo-1717324280917-b9802217c6df?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxmb3Jlc3QlMjB3aWxkbGlmZXxlbnwwfHx8fDE3NTkwNjc2MzF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "forest wildlife"
+    },
+    {
+      "id": "deori-mandir",
+      "description": "Deori Mandir, an ancient temple dedicated to Goddess Durga.",
+      "imageUrl": "https://images.unsplash.com/photo-1695825497306-c07fc059d331?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx0ZW1wbGUlMjBhcmNoaXRlY3R1cmV8ZW58MHx8fHwxNzU5MDUzNjE5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "temple architecture"
+    },
+    {
+      "id": "jonha-falls",
+      "description": "Jonha Falls, a hanging valley waterfall surrounded by forest.",
+      "imageUrl": "https://images.unsplash.com/photo-1694942592219-300bb72ccb45?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx3YXRlcmZhbGwlMjBmb3Jlc3R8ZW58MHx8fHwxNzU5MDY3NjMxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "waterfall forest"
+    }
+  ]
 }
