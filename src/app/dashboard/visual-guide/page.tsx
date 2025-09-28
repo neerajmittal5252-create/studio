@@ -1,6 +1,6 @@
 'use client';
 
-import { useFormState, useFormStatus } from 'react-dom';
+import { useActionState, useFormStatus } from 'react';
 import { useState, useEffect, useRef } from 'react';
 import Image from 'next/image';
 import { recognizeImage, type RecognitionState } from '@/lib/actions';
@@ -39,7 +39,7 @@ function SubmitButton() {
 
 export default function VisualGuidePage() {
   const initialState: RecognitionState = {};
-  const [state, dispatch] = useFormState(recognizeImage, initialState);
+  const [state, dispatch] = useActionState(recognizeImage, initialState);
   const { toast } = useToast();
   const [previewUrl, setPreviewUrl] = useState<string | null>(null);
   const [dataUri, setDataUri] = useState('');

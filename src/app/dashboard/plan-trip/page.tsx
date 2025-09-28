@@ -1,6 +1,6 @@
 'use client';
 
-import { useFormState, useFormStatus } from 'react-dom';
+import { useActionState, useFormStatus } from 'react';
 import { createItinerary, type ItineraryState } from '@/lib/actions';
 import {
   Card,
@@ -46,7 +46,7 @@ function SubmitButton() {
 
 export default function PlanTripPage() {
   const initialState: ItineraryState = {};
-  const [state, dispatch] = useFormState(createItinerary, initialState);
+  const [state, dispatch] = useActionState(createItinerary, initialState);
   const { toast } = useToast();
 
   useEffect(() => {
