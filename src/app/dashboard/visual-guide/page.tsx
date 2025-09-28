@@ -1,6 +1,7 @@
 'use client';
 
-import { useActionState, useFormStatus } from 'react';
+import { useActionState } from 'react';
+import { useFormStatus } from 'react-dom';
 import { useState, useEffect, useRef } from 'react';
 import Image from 'next/image';
 import { recognizeImage, type RecognitionState } from '@/lib/actions';
@@ -100,7 +101,7 @@ export default function VisualGuidePage() {
                   <Image
                     src={previewUrl}
                     alt="Landmark preview"
-                    layout="fill"
+                    fill
                     objectFit="cover"
                   />
                 </div>
